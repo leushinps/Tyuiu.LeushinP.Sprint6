@@ -211,16 +211,16 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
 
         #endregion
 
-        private Button buttonHelp_PPE;
-        private Button buttonResult_PPE;
-        private GroupBox groupBoxTask_PPE;
-        private TextBox textBoxTask_PPE;
-        private PictureBox pictureBoxFarmula_PPE;
-        private GroupBox groupBoxInput_PPE;
-        private TextBox textBoxInputEnd_PPE;
-        private TextBox textBoxInputStart_PPE;
-        private GroupBox groupBoxOutput_PPE;
-        private TextBox textBoxOutputEnd_PPE;
-        private TextBox textBoxOutpunStart_PPE;
+        private Button buttonHelp_LPS;
+        private Button buttonResult_LPS;
+        private GroupBox groupBoxTask_LPS;
+        private TextBox textBoxTask_LPS;
+        private PictureBox pictureBoxFarmula_LPS;
+        private GroupBox groupBoxInput_LPS;
+        private TextBox textBoxInputEnd_LPS;
+        private TextBox textBoxInputStart_LPS;
+        private GroupBox groupBoxOutput_LPS;
+        private TextBox textBoxOutputEnd_LPS;
+        private TextBox textBoxOutpunStartLPS;
     }
 }
