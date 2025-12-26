@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
 using Tyuiu.LeushinP.Sprint6.Task0.V5.Lib;
+
 namespace Tyuiu.LeushinP.Sprint6.Task0.V5
 {
     partial class FormMain
@@ -53,7 +54,7 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             // buttonHelp_LPS
             // 
             buttonHelp_LPS.FlatStyle = FlatStyle.Flat;
-            buttonHelp_LPS.Font = new Font("Segoe UI", 14F);
+            buttonHelp_LPS.Font = new System.Drawing.Font("Segoe UI", 14F);
             buttonHelp_LPS.Location = new Point(656, 520);
             buttonHelp_LPS.Margin = new Padding(3, 4, 3, 4);
             buttonHelp_LPS.Name = "buttonHelp_LPS";
@@ -127,7 +128,7 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             // 
             // textBoxInputEnd_LPS
             // 
-            textBoxInputEnd_LPS.Font = new Font("Segoe UI", 16F);
+            textBoxInputEnd_LPS.Font = new System.Drawing.Font("Segoe UI", 16F);
             textBoxInputEnd_LPS.Location = new Point(7, 68);
             textBoxInputEnd_LPS.Margin = new Padding(3, 4, 3, 4);
             textBoxInputEnd_LPS.Name = "textBoxInputEnd_LPS";
@@ -162,7 +163,7 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             // 
             // textBoxOutputEnd_LPS
             // 
-            textBoxOutputEnd_LPS.Font = new Font("Segoe UI", 16F);
+            textBoxOutputEnd_LPS.Font = new System.Drawing.Font("Segoe UI", 16F);
             textBoxOutputEnd_LPS.Location = new Point(7, 68);
             textBoxOutputEnd_LPS.Margin = new Padding(3, 4, 3, 4);
             textBoxOutputEnd_LPS.Name = "textBoxOutputEnd_LPS";
@@ -207,6 +208,11 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             groupBoxOutput_LPS.ResumeLayout(false);
             groupBoxOutput_LPS.PerformLayout();
             ResumeLayout(false);
+        }
+
+        private void pictureBoxFarmula_LPS_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
