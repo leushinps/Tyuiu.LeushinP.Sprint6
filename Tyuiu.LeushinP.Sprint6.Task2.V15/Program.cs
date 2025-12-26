@@ -1,10 +1,8 @@
 using Tyuiu.LeushinP.Sprint6.Task2.V15.Lib;
-namespace Tyuiu.LeushinP.Sprint6.Task2.V15;
 using tyuiu.cources.programming.interfaces.Sprint6;
-
-
+namespace Tyuiu.LeushinP.Sprint6.Task2.V15;
 {
-    public partial class FormMain : Form
+   public partial class FormMain : Form
     {
         public FormMain()
         {
@@ -34,7 +32,7 @@ using tyuiu.cources.programming.interfaces.Sprint6;
         private void buttonQuestion_LPS_Click(Object sender, EventArgs e)
         {
             MessageBox.Show("Выполнил студент группы СМАРТБ - 25 - 1 Леушин П.С");
-        }
+      }
 
-    }
+   }
 }
