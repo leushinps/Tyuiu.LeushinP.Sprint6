@@ -1,6 +1,6 @@
-﻿using Tyuiu.PlatonovaPE.Sprint6.Task0.V5.Lib;
+﻿using Tyuiu.LeushinP.Sprint6.Task0.V5.Lib;
 
-namespace Tyuiu.PlatonovaPE.Sprint6.Task0.V5
+namespace Tyuiu.LeushinP.Sprint6.Task0.V5
 {
     public partial class FormMain : Form
     {
