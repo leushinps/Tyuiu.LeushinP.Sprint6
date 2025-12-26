@@ -53,7 +53,6 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             // 
             // buttonHelp_LPS
             // 
-            buttonHelp_LPS.FlatStyle = FlatStyle.Flat;
             buttonHelp_LPS.Font = new Font("Segoe UI", 14F);
             buttonHelp_LPS.Location = new Point(574, 390);
             buttonHelp_LPS.Name = "buttonHelp_LPS";
