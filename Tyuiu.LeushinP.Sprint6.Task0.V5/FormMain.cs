@@ -27,7 +27,7 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
         }
         private void buttonHelp_LPS_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("-", "-");
+            MessageBox.Show("Выполнил студент группы СМАРТБ-25-1 Леушин П.С", "Сообщение");
         }
 
     }

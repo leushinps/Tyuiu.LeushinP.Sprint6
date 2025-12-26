@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
-
+using Tyuiu.LeushinP.Sprint6.Task0.V5.Lib;
 namespace Tyuiu.LeushinP.Sprint6.Task0.V5
 {
     partial class FormMain
@@ -50,45 +50,45 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             groupBoxOutput_LPS.SuspendLayout();
             SuspendLayout();
             // 
-            // buttonHelp_MSM
+            // buttonHelp_LPS
             // 
             buttonHelp_LPS.FlatStyle = FlatStyle.Flat;
             buttonHelp_LPS.Font = new Font("Segoe UI", 14F);
             buttonHelp_LPS.Location = new Point(656, 520);
             buttonHelp_LPS.Margin = new Padding(3, 4, 3, 4);
-            buttonHelp_LPS.Name = "buttonHelp_MSM";
+            buttonHelp_LPS.Name = "buttonHelp_LPS";
             buttonHelp_LPS.Size = new Size(57, 67);
             buttonHelp_LPS.TabIndex = 0;
             buttonHelp_LPS.Text = "?";
             buttonHelp_LPS.UseVisualStyleBackColor = true;
             buttonHelp_LPS.Click += buttonHelp_LPS_Click;
             // 
-            // buttonResult_MSM
+            // buttonResult_LPS
             // 
             buttonResult_LPS.BackColor = SystemColors.Control;
             buttonResult_LPS.Location = new Point(720, 520);
             buttonResult_LPS.Margin = new Padding(3, 4, 3, 4);
-            buttonResult_LPS.Name = "buttonResult_MSM";
+            buttonResult_LPS.Name = "buttonResult_LPS";
             buttonResult_LPS.Size = new Size(181, 64);
             buttonResult_LPS.TabIndex = 1;
             buttonResult_LPS.Text = "Выполнить";
             buttonResult_LPS.UseVisualStyleBackColor = false;
             buttonResult_LPS.Click += buttonResult_LPS_Click;
             // 
-            // groupBoxTask_MSM
+            // groupBoxTask_LPS
             // 
-            groupBoxTask_LPS.Controls.Add(textBoxTask_MSM);
-            groupBoxTask_LPS.Controls.Add(pictureBoxFarmula_MSM);
+            groupBoxTask_LPS.Controls.Add(textBoxTask_LPS);
+            groupBoxTask_LPS.Controls.Add(pictureBoxFarmula_LPS);
             groupBoxTask_LPS.Location = new Point(14, 16);
             groupBoxTask_LPS.Margin = new Padding(3, 4, 3, 4);
-            groupBoxTask_LPS.Name = "groupBoxTask_MSM";
+            groupBoxTask_LPS.Name = "groupBoxTask_LPS";
             groupBoxTask_LPS.Padding = new Padding(3, 4, 3, 4);
             groupBoxTask_LPS.Size = new Size(887, 351);
             groupBoxTask_LPS.TabIndex = 2;
             groupBoxTask_LPS.TabStop = false;
             groupBoxTask_LPS.Text = "Условие";
             // 
-            // textBoxTask_MSM
+            // textBoxTask_LPS
             // 
             textBoxTask_LPS.BackColor = SystemColors.Control;
             textBoxTask_LPS.BorderStyle = BorderStyle.None;
@@ -101,7 +101,7 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             textBoxTask_LPS.TabIndex = 1;
             textBoxTask_LPS.Text = "Вычислить выражение по формуле";
             // 
-            // pictureBoxFarmula_MSM
+            // pictureBoxFarmula_LPS
             // 
             pictureBoxFarmula_LPS.BackColor = SystemColors.Window;
             pictureBoxFarmula_LPS.Location = new Point(541, 29);
@@ -112,20 +112,20 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             pictureBoxFarmula_LPS.TabStop = false;
             pictureBoxFarmula_LPS.Click += this.pictureBoxFarmula_LPS_Click;
             // 
-            // groupBoxInput_MSM
+            // groupBoxInput_LPS
             // 
             groupBoxInput_LPS.Controls.Add(textBoxInputEnd_LPS);
             groupBoxInput_LPS.Controls.Add(textBoxInputStart_LPS);
             groupBoxInput_LPS.Location = new Point(14, 375);
             groupBoxInput_LPS.Margin = new Padding(3, 4, 3, 4);
-            groupBoxInput_LPS.Name = "groupBoxInput_MSM";
+            groupBoxInput_LPS.Name = "groupBoxInput_LPS";
             groupBoxInput_LPS.Padding = new Padding(3, 4, 3, 4);
             groupBoxInput_LPS.Size = new Size(638, 127);
             groupBoxInput_LPS.TabIndex = 3;
             groupBoxInput_LPS.TabStop = false;
             groupBoxInput_LPS.Text = "Ввод данных:";
             // 
-            // textBoxInputEnd_MSM
+            // textBoxInputEnd_LPS
             // 
             textBoxInputEnd_LPS.Font = new Font("Segoe UI", 16F);
             textBoxInputEnd_LPS.Location = new Point(7, 68);
@@ -133,9 +133,9 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             textBoxInputEnd_LPS.Name = "textBoxInputEnd_LPS";
             textBoxInputEnd_LPS.Size = new Size(623, 43);
             textBoxInputEnd_LPS.TabIndex = 1;
-            textBoxInputEnd_LPS.KeyPress += textBoxInputEnd_MSM_KeyPress;
+            textBoxInputEnd_LPS.KeyPress += textBoxInputEnd_LPS_KeyPress;
             // 
-            // textBoxInputStart_MSM
+            // textBoxInputStart_LPS
             // 
             textBoxInputStart_LPS.BackColor = SystemColors.Control;
             textBoxInputStart_LPS.BorderStyle = BorderStyle.None;
@@ -147,30 +147,30 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             textBoxInputStart_LPS.TabIndex = 0;
             textBoxInputStart_LPS.Text = "Переменная X:";
             // 
-            // groupBoxOutput_MSM
+            // groupBoxOutput_LPS
             // 
-            groupBoxOutput_LPS.Controls.Add(textBoxOutputEnd_PPE);
-            groupBoxOutput_LPS.Controls.Add(textBoxOutpunStart_PPE);
+            groupBoxOutput_LPS.Controls.Add(textBoxOutputEnd_LPS);
+            groupBoxOutput_LPS.Controls.Add(textBoxOutpunStart_LPS);
             groupBoxOutput_LPS.Location = new Point(658, 375);
             groupBoxOutput_LPS.Margin = new Padding(3, 4, 3, 4);
-            groupBoxOutput_LPS.Name = "groupBoxOutput_PPE";
-            groupBoxOutput_LPS Padding = new Padding(3, 4, 3, 4);
+            groupBoxOutput_LPS.Name = "groupBoxOutput_LPS";
+            groupBoxOutput_LPS.Padding = new Padding(3, 4, 3, 4);
             groupBoxOutput_LPS.Size = new Size(242, 127);
             groupBoxOutput_LPS.TabIndex = 4;
             groupBoxOutput_LPS.TabStop = false;
             groupBoxOutput_LPS.Text = "Вывод данных:";
             // 
-            // textBoxOutputEnd_MSM
+            // textBoxOutputEnd_LPS
             // 
-            groupBoxOutput_LPS.Font = new Font("Segoe UI", 16F);
-            groupBoxOutput_LPS.Location = new Point(7, 68);
-            groupBoxOutput_LPS.Margin = new Padding(3, 4, 3, 4);
-            groupBoxOutput_LPS.Name = "textBoxOutputEnd_LPS";
-            groupBoxOutput_LPS.ReadOnly = true;
-            groupBoxOutput_LPS.Size = new Size(207, 43);
-            groupBoxOutput_LPS.TabIndex = 1;
+            textBoxOutputEnd_LPS.Font = new Font("Segoe UI", 16F);
+            textBoxOutputEnd_LPS.Location = new Point(7, 68);
+            textBoxOutputEnd_LPS.Margin = new Padding(3, 4, 3, 4);
+            textBoxOutputEnd_LPS.Name = "textBoxOutputEnd_LPS";
+            textBoxOutputEnd_LPS.ReadOnly = true;
+            textBoxOutputEnd_LPS.Size = new Size(207, 43);
+            textBoxOutputEnd_LPS.TabIndex = 1;
             // 
-            // textBoxOutpunStart_MSM
+            // textBoxOutpunStart_LPS
             // 
             textBoxOutpunStart_LPS.BackColor = SystemColors.Control;
             textBoxOutpunStart_LPS.BorderStyle = BorderStyle.None;
@@ -198,7 +198,7 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
             MaximizeBox = false;
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Спринт 6 | Таск 0 | Вариант 5 |Леушин Павел Сергеевич.";
+            Text = "Спринт 6 | Таск 0 | Вариант 5 | Леушин П.С.";
             groupBoxTask_LPS.ResumeLayout(false);
             groupBoxTask_LPS.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFarmula_LPS).EndInit();
@@ -221,6 +221,6 @@ namespace Tyuiu.LeushinP.Sprint6.Task0.V5
         private TextBox textBoxInputStart_LPS;
         private GroupBox groupBoxOutput_LPS;
         private TextBox textBoxOutputEnd_LPS;
-        private TextBox textBoxOutpunStartLPS;
+        private TextBox textBoxOutpunStart_LPS;
     }
 }
